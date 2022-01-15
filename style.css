@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cal-main-sub{
+    width: 380px;
+    background: #292929;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: inset 3px 3px 15px rgb(21, 21, 21);
+    position: relative;
+    margin: 0 auto;
+    
+}
+.cal-main{
+    width: 500px;
+    height: 100vh;
+    background: #262826;
+    margin: 0 auto;
+    padding-top: 100px;
+   
+   
+}
+#display{
+    height: 100px;
+    width: 340px;
+    background: #272926;
+    margin-left: 8px;
+    box-shadow: inset 3px 3px 15px rgb(21, 21, 21);
+}
+button{
+    display: block;
+    width: 80px;
+    height: 60px;
+    margin-right: 10px;
+    background: #272926;
+    color: #6598df;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow:  3px 3px 25px rgb(21, 21, 21);
+    border: none;
+}
+#buttons{
+    
+    width: 400px;
+    
+    padding: 0px 5px;
+}
+.set-one{
+    width: 350px;
+     margin: 10px 0px;
+     display: flex;
+}
+#c{
+    width: 165px;
+   
+}
+#plus{
+    position: absolute;
+    height: 135px;
+    right: 11px;
+    width: 75px;
+}
+.set-two{
+    padding-bottom: 5px;
+    margin: 10px 0px;
+        width: 350px;
+        display: flex;
+}
+.set-three{
+    padding-bottom: 5px; 
+    margin: 10px 0px;
+    display: flex;
+}
+.set-four{
+    padding-bottom: 5px;
+    margin: 10px 0px; 
+    display: flex;
+}
+.set-five{
+    padding-bottom: 5px;
+    margin: 10px 0px; 
+    display: flex;
+}
+@media screen and (max-width:400px){
+    .cal-main-sub{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .cal-main{
+        width: 300px;
+       
+       
+    }
+    #display{
+        height: 70px;
+        width: 230px;
+       
+    }
+    button{
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+    }
+    #buttons{
+        
+        width: 300px;
+     }
+    .set-one{
+        width: 240px;
+    }
+    #c{
+        width: 190px;
+       
+    }
+    #plus{
+
+        height: 117px;
+        right: 33px;
+        width: 55px;
+    }
+}
