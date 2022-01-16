@@ -14,12 +14,11 @@
     
 }
 .cal-main{
-    width: 500px;
     height: 100vh;
-    background: #262826;
-    margin: 0 auto;
-    padding-top: 100px;
-   
+    background: #6598df;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
    
 }
 #display{
@@ -68,6 +67,11 @@ button{
         width: 350px;
         display: flex;
 }
+.set-three-mini{
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+}
 .set-three{
     padding-bottom: 5px; 
     margin: 10px 0px;
@@ -83,44 +87,68 @@ button{
     margin: 10px 0px; 
     display: flex;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .cal-main-sub{
-        width: 300px;
+    width: 280px;
+    background: #292929; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#display{
+    height: 70px;
+    width: 245px;
+}
+#buttons{
+    width: 245px;
+}
+button{
+    display: block;
+    width: 55px;
+    height: 40px;
+    margin-right: 0px;
+    font-size: 14px;
+}
+.set-one{
+    width: 245px;
+     margin: 10px 0px;
+     display: flex;
+     justify-content: space-between;
+}
+#c{
+    width: 110px; 
+}
+.set-two{
+   
+    width: 245px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 20px;
-    }
-    .cal-main{
-        width: 300px;
-       
-       
-    }
-    #display{
-        height: 70px;
-        width: 230px;
-       
-    }
-    button{
-        width: 50px;
-        height: 50px;
-        font-size: 14px;
-    }
-    #buttons{
         
-        width: 300px;
-     }
-    .set-one{
-        width: 240px;
-    }
-    #c{
-        width: 190px;
-       
-    }
-    #plus{
-
-        height: 117px;
-        right: 33px;
-        width: 55px;
-    }
+        justify-content: space-between;
+}
+.set-three{
+    width: 245px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.set-three-mini{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+.set-four{
+    width: 245px;
+}
+.set-five{
+    width: 245px;
+    display: flex;
+    justify-content: space-between;
+}
+#plus{
+    
+    height: 100px;
+    right: 15px;
+    width: 50px;
+}
 }
